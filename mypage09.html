@@ -13,8 +13,8 @@
     <!-- ตารางที่แต่ละแถวที่จำนวนคอลลัมเท่ากัน   Row / Colum-->
     <table border="1px" width="600">
         <h1>ตารางแบบที่1</h1>
-        <tr>
-            <td>11</td>
+        <tr style="background-color: ;">
+            <td colspan="2" rowspan="2">a</td>
             <td>22</td>
             <td>33</td>
             <td>44</td>
@@ -34,9 +34,9 @@
 
         <tr>
 
-            <td>11</td>
-            <td>22</td>
-            <td>33</td>
+            <td>g</td>
+            <td>h</td>
+            <td>i</td>
             <td>44</td>
             <td>55</td>
 
@@ -70,8 +70,46 @@
 
 
     <!-- ตารางที่แต่ละแถวที่จำนวนคอลลัมไม่เท่ากัน Row / Colum-->
+    <br />
+
+    <h1>workshop table ครั้งที่1</h1>
+    <table border="1px" width="500" style="text-align: center;">
+        <tr style="background-color: chartreuse;">
+            <td colspan="2" rowspan"2">a</td>
+            <td>b</td>
+            <td>c</td>
+            <td rowspan"2">d</td>
+
+        </tr>
+
+        <tr style="background-color: blue;">
+            <td colspan="2">e</td>
+        
+        </tr>
+
+        <tr style="background-color: darkseagreen;">
+            <td rowspan="2">f</td>
+            <td colspan="3">h</td>
+            <td></td>
+          
+            
+            </tr>
+
+<tr style="background-color: purple;">
+    <td>i</td>
+    <td>j</td>
+    <td colspan="2">k</td>
 
 
+
+
+
+
+</tr>
+
+
+
+    </table>
 
 </body>
 
